@@ -10,19 +10,53 @@
 		5A346E5D2A99068C00C4815A /* iSteamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A346E5C2A99068C00C4815A /* iSteamApp.swift */; };
 		5A346E5F2A99068C00C4815A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A346E5E2A99068C00C4815A /* ContentView.swift */; };
 		5A346E612A99068D00C4815A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A346E602A99068D00C4815A /* Assets.xcassets */; };
-		5A346E642A99068D00C4815A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A346E632A99068D00C4815A /* Preview Assets.xcassets */; };
+		5A346E6B2A99091700C4815A /* ScraperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A346E6A2A99091700C4815A /* ScraperService.swift */; };
+		5A346E6E2A990AC600C4815A /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 5A346E6D2A990AC600C4815A /* SwiftSoup */; };
+		5A346E702A990DA600C4815A /* SteamChartsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A346E6F2A990DA600C4815A /* SteamChartsService.swift */; };
+		5A346E722A9910F200C4815A /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A346E712A9910F200C4815A /* HTTPError.swift */; };
+		5A346E742A99110D00C4815A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A346E732A99110D00C4815A /* Game.swift */; };
+		5A346E762A9911AB00C4815A /* MostPlayedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A346E752A9911AB00C4815A /* MostPlayedVM.swift */; };
+		5A346E852A99139E00C4815A /* ScraperService_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A346E842A99139E00C4815A /* ScraperService_Test.swift */; };
+		5A346E872A99142100C4815A /* most-played.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A346E862A99142100C4815A /* most-played.html */; };
+		5A346E892A99180000C4815A /* MostPlayedVM_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A346E882A99180000C4815A /* MostPlayedVM_Test.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A346E7F2A99138600C4815A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A346E512A99068C00C4815A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A346E582A99068C00C4815A;
+			remoteInfo = iSteam;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5A346E592A99068C00C4815A /* iSteam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSteam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A346E5C2A99068C00C4815A /* iSteamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSteamApp.swift; sourceTree = "<group>"; };
 		5A346E5E2A99068C00C4815A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A346E602A99068D00C4815A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A346E632A99068D00C4815A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A346E6A2A99091700C4815A /* ScraperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScraperService.swift; sourceTree = "<group>"; };
+		5A346E6F2A990DA600C4815A /* SteamChartsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamChartsService.swift; sourceTree = "<group>"; };
+		5A346E712A9910F200C4815A /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		5A346E732A99110D00C4815A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		5A346E752A9911AB00C4815A /* MostPlayedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPlayedVM.swift; sourceTree = "<group>"; };
+		5A346E7B2A99138600C4815A /* iSteamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSteamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A346E842A99139E00C4815A /* ScraperService_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScraperService_Test.swift; sourceTree = "<group>"; };
+		5A346E862A99142100C4815A /* most-played.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "most-played.html"; sourceTree = "<group>"; };
+		5A346E882A99180000C4815A /* MostPlayedVM_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPlayedVM_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5A346E562A99068C00C4815A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A346E6E2A990AC600C4815A /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A346E782A99138600C4815A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				5A346E592A99068C00C4815A /* iSteam.app */,
+				5A346E7B2A99138600C4815A /* iSteamTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,18 +88,17 @@
 			children = (
 				5A346E5C2A99068C00C4815A /* iSteamApp.swift */,
 				5A346E5E2A99068C00C4815A /* ContentView.swift */,
+				5A346E6A2A99091700C4815A /* ScraperService.swift */,
+				5A346E842A99139E00C4815A /* ScraperService_Test.swift */,
+				5A346E752A9911AB00C4815A /* MostPlayedVM.swift */,
+				5A346E882A99180000C4815A /* MostPlayedVM_Test.swift */,
+				5A346E732A99110D00C4815A /* Game.swift */,
+				5A346E6F2A990DA600C4815A /* SteamChartsService.swift */,
+				5A346E712A9910F200C4815A /* HTTPError.swift */,
+				5A346E862A99142100C4815A /* most-played.html */,
 				5A346E602A99068D00C4815A /* Assets.xcassets */,
-				5A346E622A99068D00C4815A /* Preview Content */,
 			);
 			path = iSteam;
-			sourceTree = "<group>";
-		};
-		5A346E622A99068D00C4815A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5A346E632A99068D00C4815A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +117,30 @@
 			dependencies = (
 			);
 			name = iSteam;
+			packageProductDependencies = (
+				5A346E6D2A990AC600C4815A /* SwiftSoup */,
+			);
 			productName = iSteam;
 			productReference = 5A346E592A99068C00C4815A /* iSteam.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5A346E7A2A99138600C4815A /* iSteamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A346E812A99138600C4815A /* Build configuration list for PBXNativeTarget "iSteamTests" */;
+			buildPhases = (
+				5A346E772A99138600C4815A /* Sources */,
+				5A346E782A99138600C4815A /* Frameworks */,
+				5A346E792A99138600C4815A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A346E802A99138600C4815A /* PBXTargetDependency */,
+			);
+			name = iSteamTests;
+			productName = iSteamTests;
+			productReference = 5A346E7B2A99138600C4815A /* iSteamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +155,10 @@
 					5A346E582A99068C00C4815A = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					5A346E7A2A99138600C4815A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5A346E582A99068C00C4815A;
+					};
 				};
 			};
 			buildConfigurationList = 5A346E542A99068C00C4815A /* Build configuration list for PBXProject "iSteam" */;
@@ -111,11 +170,15 @@
 				Base,
 			);
 			mainGroup = 5A346E502A99068C00C4815A;
+			packageReferences = (
+				5A346E6C2A990AC600C4815A /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 5A346E5A2A99068C00C4815A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5A346E582A99068C00C4815A /* iSteam */,
+				5A346E7A2A99138600C4815A /* iSteamTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +188,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A346E642A99068D00C4815A /* Preview Assets.xcassets in Resources */,
+				5A346E872A99142100C4815A /* most-played.html in Resources */,
 				5A346E612A99068D00C4815A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A346E792A99138600C4815A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,11 +208,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A346E5F2A99068C00C4815A /* ContentView.swift in Sources */,
+				5A346E742A99110D00C4815A /* Game.swift in Sources */,
 				5A346E5D2A99068C00C4815A /* iSteamApp.swift in Sources */,
+				5A346E6B2A99091700C4815A /* ScraperService.swift in Sources */,
+				5A346E762A9911AB00C4815A /* MostPlayedVM.swift in Sources */,
+				5A346E722A9910F200C4815A /* HTTPError.swift in Sources */,
+				5A346E702A990DA600C4815A /* SteamChartsService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A346E772A99138600C4815A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A346E892A99180000C4815A /* MostPlayedVM_Test.swift in Sources */,
+				5A346E852A99139E00C4815A /* ScraperService_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A346E802A99138600C4815A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A346E582A99068C00C4815A /* iSteam */;
+			targetProxy = 5A346E7F2A99138600C4815A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5A346E652A99068D00C4815A /* Debug */ = {
@@ -271,7 +363,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iSteam/Preview Content\"";
 				DEVELOPMENT_TEAM = P4DQK6SRKR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +391,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iSteam/Preview Content\"";
 				DEVELOPMENT_TEAM = P4DQK6SRKR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -319,6 +409,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A346E822A99138600C4815A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4DQK6SRKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.iSteamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSteam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iSteam";
+			};
+			name = Debug;
+		};
+		5A346E832A99138600C4815A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4DQK6SRKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.iSteamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSteam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iSteam";
 			};
 			name = Release;
 		};
@@ -343,7 +469,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5A346E812A99138600C4815A /* Build configuration list for PBXNativeTarget "iSteamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A346E822A99138600C4815A /* Debug */,
+				5A346E832A99138600C4815A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A346E6C2A990AC600C4815A /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A346E6D2A990AC600C4815A /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A346E6C2A990AC600C4815A /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A346E512A99068C00C4815A /* Project object */;
 }

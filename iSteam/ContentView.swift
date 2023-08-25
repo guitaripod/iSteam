@@ -1,21 +1,40 @@
-//
-//  ContentView.swift
-//  iSteam
-//
-//  Created by Marcus Ziadé on 25.8.2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var model = MostPlayedVM()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(model.games) { game in
+            ZStack(alignment: .leading) {
+                AsyncImage(url: game.imgSrc) { image in
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                } placeholder: {
+                    ProgressView()
+                }
+                
+                Color.black.opacity(0.5)
+                
+                VStack(alignment: .leading) {
+                    Text(game.rank)
+                        .font(.title)
+                        .fontWeight(.bold)
+                    Text(game.name)
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    Text(game.price)
+                        .font(.title3)
+                        .fontWeight(.bold)
+                        .foregroundColor(.gray)
+                }
+                .padding()
+            }
+            .listRowSeparator(.hidden)
+            .listRowBackground(Color.clear)
         }
-        .padding()
+        .listStyle(.plain)
     }
 }
 
